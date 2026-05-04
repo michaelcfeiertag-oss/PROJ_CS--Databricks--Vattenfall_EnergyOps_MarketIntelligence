@@ -1,0 +1,13 @@
+company: Vattenfall
+client_theme: databricks_governance_lakehouse_implementation
+
+catalog: PRJ__vattenfall_dev
+
+schemas:
+  raw: raw
+  refined: refined
+  analytics: analytics
+
+volumes:
+  landing: landing
+  checkpoints: checkpoints
