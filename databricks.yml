@@ -1,0 +1,11 @@
+bundle:
+  name: vattenfall__market_intelligence_lakehouse
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    default: true
+    workspace:
+      host: https://dbc-c8b6bec4-239a.cloud.databricks.com/

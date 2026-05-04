@@ -1,7 +1,7 @@
 company: Vattenfall
-client_theme: databricks_governance_lakehouse_implementation
+client_theme: market_intelligence_lakehouse
 
-catalog: PRJ__vattenfall_dev
+catalog: PRJ__vattenfall_01
 
 schemas:
   raw: raw
