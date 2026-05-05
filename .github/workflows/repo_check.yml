@@ -24,7 +24,10 @@ jobs:
           test -f databricks.yml
           test -f config/project_config.yml
           test -d docs
+          test -d notebooks
           test -d sample_data
           test -d sql
           test -d src
+        run: |
+          echo "Check directory "tests":"
           test -d tests
