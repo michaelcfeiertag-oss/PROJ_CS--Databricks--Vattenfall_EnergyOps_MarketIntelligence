@@ -13,21 +13,45 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+
       - name: List repository structure
         run: |
           echo "Repository structure:"
           ls -R
 
-      - name: Verify important structure
+
+      - name: Verify important structure element "file README.md"
         run: |
           test -f README.md
-          test -f databricks.yml
-          test -f config/project_config.yml
-          test -d docs
-          test -d notebooks
-          test -d sample_data
-          test -d sql
-          test -d src
+
+      - name: Verify important structure element "file databricks.yml"
         run: |
-          echo "Check directory "tests":"
+          test -f databricks.yml
+      
+      - name: Verify important structure element "file config/config_uc_objects.yml"
+        run: |
+          test -f config/config_uc_objects.yml
+
+      - name: Verify important structure element "folder docs"
+        run: |
+          test -d docs
+
+      - name: Verify important structure element "folder notebooks"
+        run: |
+          test -d notebooks
+
+      - name: Verify important structure element "folder sample_data"
+        run: |
+          test -d sample_data
+
+      - name: Verify important structure element "folder sql"
+        run: |
+          test -d sql
+
+      - name: Verify important structure element "folder src"
+        run: |
+          test -d src
+        
+      - name: Verify important structure element "folder tests"  
+        run: |
           test -d tests

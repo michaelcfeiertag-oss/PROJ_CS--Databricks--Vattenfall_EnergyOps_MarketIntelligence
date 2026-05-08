@@ -1,0 +1,2 @@
+event_date,region,market_type,price_eur_mwh,volume_mwh,source_system,last_updated_ts
+2026-05-10,CENTRAL,DAY_AHEAD,35.00,1373.0,MARKET_FEED_3,2026-05-10 00:00:00
