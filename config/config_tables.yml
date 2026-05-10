@@ -3,3 +3,7 @@ bronze_tables:
   weather: bronze_weather
   grid_events: bronze_grid_events
   asset_reference: bronze_asset_reference
+  event_type_reference: bronze_event_type_reference
+  market_reference: bronze_market_reference
+  region_reference: bronze_region_reference
+  weather_alert_reference: bronze_weather_alert_reference

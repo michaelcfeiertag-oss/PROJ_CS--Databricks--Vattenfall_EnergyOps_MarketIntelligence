@@ -1,15 +1,36 @@
+rawsource_paths:
+  asset_reference: /Workspace/Repos/michael.c.feiertag@web.de/PRJ__Vattenfall_EnergyOps_MarketIntelligence/sample_data/AREF_asset_reference
+  event_type_reference: /Workspace/Repos/michael.c.feiertag@web.de/PRJ__Vattenfall_EnergyOps_MarketIntelligence/sample_data/AREF_event_type_reference
+  market_reference: /Workspace/Repos/michael.c.feiertag@web.de/PRJ__Vattenfall_EnergyOps_MarketIntelligence/sample_data/AREF_market_reference
+  region_reference: /Workspace/Repos/michael.c.feiertag@web.de/PRJ__Vattenfall_EnergyOps_MarketIntelligence/sample_data/AREF_region_reference
+  weather_alert_reference: /Workspace/Repos/michael.c.feiertag@web.de/PRJ__Vattenfall_EnergyOps_MarketIntelligence/sample_data/AREF_weather_alert_reference
+
 landing_paths:
+  grid_events: grid_events
   market_prices: market_prices
   weather: weather
-  grid_events: grid_events
-  reference: reference
+  asset_reference: asset_reference
+  event_type_reference: event_type_reference
+  market_reference: market_reference
+  region_reference: region_reference
+  weather_alert_reference: weather_alert_reference
 
 checkpoint_paths:
+  grid_events: grid_events_checkpoint
   market_prices: market_prices_checkpoint
   weather: weather_checkpoint
-  grid_events: grid_events_checkpoint
+  asset_reference: asset_reference_checkpoint
+  event_type_reference: event_type_reference_checkpoint
+  market_reference: market_reference_checkpoint
+  region_reference: region_reference_checkpoint
+  weather_alert_reference: weather_alert_reference_checkpoint
 
 schema_tracking_paths:
+  grid_events: grid_events_schema
   market_prices: market_prices_schema
   weather: weather_schema
-  grid_events: grid_events_schema
+  asset_reference: asset_reference_schema
+  event_type_reference: event_type_reference_schema
+  market_reference: market_reference_schema
+  region_reference: region_reference_schema
+  weather_alert_reference: weather_alert_reference_schema
